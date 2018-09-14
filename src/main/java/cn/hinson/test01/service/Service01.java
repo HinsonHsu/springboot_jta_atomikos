@@ -23,7 +23,7 @@ public class Service01 {
     public void addUser1andUser2(String username,Integer age){
         usermapper02.AddUser(username,age);
         //加上异常测试,注意这是在test01包下调用test02数据库,看出现异常之后,会不会回滚事务
-        int i= 4 / 0;
+//        int i= 4 / 0;
         usermapper01.AddUser(username,age);
     }
 }
