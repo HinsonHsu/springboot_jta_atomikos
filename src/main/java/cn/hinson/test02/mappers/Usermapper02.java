@@ -1,6 +1,7 @@
-package cn.hinson.mappers;
+package cn.hinson.test02.mappers;
 
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 public interface Usermapper02 {

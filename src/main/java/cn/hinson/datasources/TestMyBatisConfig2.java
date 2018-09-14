@@ -14,12 +14,9 @@ import org.springframework.context.annotation.Configuration;
 import javax.sql.DataSource;
 import java.sql.SQLException;
 
-/**
- * Created by jason on 2017/12/12.
- */
 @Configuration
 //basePackages 最好分开配置 如果放在同一个文件夹可能会报错
-@MapperScan(basePackages = "com.jaon.test02", sqlSessionTemplateRef = "testSqlSessionTemplate2")
+@MapperScan(basePackages = "cn.hinson.test02", sqlSessionTemplateRef = "testSqlSessionTemplate2")
 public class TestMyBatisConfig2 {
 
     // 配置数据源

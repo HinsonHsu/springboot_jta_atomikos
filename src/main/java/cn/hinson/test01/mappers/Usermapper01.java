@@ -1,4 +1,4 @@
-package cn.hinson.mappers;
+package cn.hinson.test01.mappers;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;

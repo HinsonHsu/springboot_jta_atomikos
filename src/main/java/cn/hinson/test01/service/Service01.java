@@ -1,4 +1,4 @@
-package cn.hinson.service;
+package cn.hinson.test01.service;
 
 import cn.hinson.test01.mappers.Usermapper01;
 import cn.hinson.test02.mappers.Usermapper02;

@@ -10,12 +10,12 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
  * Hello world!
  *
  */
-@EnableConfigurationProperties(value={DBConfig1.class, DBConfig2.class})
+@EnableConfigurationProperties(value = {DBConfig1.class, DBConfig2.class})
 @SpringBootApplication
 public class App 
 {
     public static void main( String[] args )
     {
-        SpringApplication.run(App.class);
+        SpringApplication.run(App.class, args);
     }
 }

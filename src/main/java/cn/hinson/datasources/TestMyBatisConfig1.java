@@ -1,7 +1,8 @@
 package cn.hinson.datasources;
 
+import javax.sql.DataSource;
+
 import cn.hinson.config.DBConfig1;
-import com.mysql.jdbc.jdbc2.optional.MysqlXADataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
@@ -11,6 +12,7 @@ import org.springframework.boot.jta.atomikos.AtomikosDataSourceBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
+import com.mysql.jdbc.jdbc2.optional.MysqlXADataSource;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;
